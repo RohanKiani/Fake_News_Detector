@@ -20,5 +20,8 @@ It uses NLP techniques such as **TF-IDF**, **text preprocessing**, and **sentime
 
 Clone this repository:
 ```bash
-git clone https://github.com/<your-username>/fake-news-app.git
+git clone https://github.com/RohanKiani/fake-news-app.git
 cd fake-news-app
+
+pip install -r requirements.txt
+streamlit run app/main.py
